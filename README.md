@@ -12,7 +12,7 @@ Este site foi desenvolvido durante o curso de HTML e CSS realizado pela Coderhou
 <br>
 
 <p align="center">
-  <img alt="Projeto Final HTML e CSS do curso realizado pela coderhouse " src="./assets/preview.jpg" width="100%">
+  <img alt="Projeto Final HTML e CSS do curso realizado pela coderhouse " src="./Images/coderhouse.jpg" width="100%">
 </p>
 
 ## 🚀 Tecnologias
