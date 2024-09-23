@@ -6,7 +6,7 @@ Este site foi desenvolvido durante o curso de HTML e CSS realizado pela Coderhou
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto
 </p>
 
 <br>
