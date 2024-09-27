@@ -20,3 +20,7 @@ body {
 .link {
   text-decoration: none;
 }
+
+section {
+  overflow-x: hidden;
+}
