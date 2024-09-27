@@ -1,4 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
   margin: 0;
   padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.fundo-claro{
+  background-color: #E3E6F4;
+}
+
+.atendimentos i {
+  color: #4c62a4;
+}
+
+.link {
+  text-decoration: none;
 }
