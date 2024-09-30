@@ -7,20 +7,34 @@
 
 body {
   font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
 }
 
 .fundo-claro{
   background-color: #E3E6F4;
 }
 
-.atendimentos i {
+#atendimentos i {
   color: #4c62a4;
+  font-size: 4rem;
 }
 
 .link {
   text-decoration: none;
 }
 
-section {
-  overflow-x: hidden;
+#psicoterapia p span {
+  font-weight: 600;
+}
+
+#psicoterapia i {
+  color: #89CE89;
+}
+
+#contato p {
+  font-weight: 600;
+}
+
+.fundo-escuro {
+  background-color: #3B4989;
 }
