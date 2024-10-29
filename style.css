@@ -3,11 +3,11 @@
 *{
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 body {
   font-family: "Montserrat", sans-serif;
-  overflow-x: hidden;
 }
 
 .fundo-claro{
