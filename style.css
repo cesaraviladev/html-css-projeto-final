@@ -19,6 +19,15 @@ body {
   font-size: 4rem;
 }
 
+#atendimentos li img,
+.atendimentos-brasil img {
+  width: 2rem;
+}
+
+.estados-brasileiros {
+  list-style: inside;
+}
+
 .link {
   text-decoration: none;
 }
