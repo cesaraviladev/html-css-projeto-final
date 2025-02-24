@@ -5,7 +5,10 @@
   padding: 0;
   overflow-x: hidden;
 }
-
+.personagem {
+  max-width: 80%; /* Ajusta o tamanho */
+  filter: drop-shadow(0px 10px 20px rgba(0, 0, 0, 0.2)); /* Adiciona um leve sombreamento */
+}
 body {
   font-family: "Montserrat", sans-serif;
 }
