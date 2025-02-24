@@ -1,20 +1,70 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
-*{
+* {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
 }
-.personagem {
-  max-width: 80%; /* Ajusta o tamanho */
-  filter: drop-shadow(0px 10px 20px rgba(0, 0, 0, 0.2)); /* Adiciona um leve sombreamento */
-}
+
 body {
   font-family: "Montserrat", sans-serif;
 }
 
-.fundo-claro{
-  background-color: #E3E6F4;
+.whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25d366; /* Cor oficial do WhatsApp */
+  color: white;
+  font-size: 28px;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  text-decoration: none;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease-in-out;
+}
+
+.whatsapp-button:hover {
+  transform: scale(1.1);
+  background-color: #1ebe57;
+}
+
+/* .back-to-top {
+  position: fixed;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 24px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  text-decoration: none;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  transition: opacity 0.3s ease-in-out, transform 0.3s;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.back-to-top:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.back-to-top.show {
+  opacity: 1;
+  visibility: visible;
+} */
+
+.fundo-claro {
+  background-color: #e3e6f4;
 }
 
 #atendimentos i {
@@ -40,7 +90,7 @@ body {
 }
 
 #psicoterapia i {
-  color: #89CE89;
+  color: #89ce89;
 }
 
 #contato p {
@@ -48,5 +98,5 @@ body {
 }
 
 .fundo-escuro {
-  background-color: #3B4989;
+  background-color: #3b4989;
 }
