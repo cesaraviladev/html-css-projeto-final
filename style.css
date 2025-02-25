@@ -63,24 +63,32 @@ body {
   visibility: visible;
 } */
 
+#capa img, #psicoterapia img {
+  width: 80%;
+}
+
+#sobre img {
+  width: 90%;
+}
+
+
 .fundo-claro {
   background-color: #e3e6f4;
 }
 
-#atendimentos i {
+#atendimento-online i {
   color: #4c62a4;
   font-size: 4rem;
 }
 
-#atendimentos li img,
-.atendimentos-brasil img {
+#atendimento-online li img{
   width: 2rem;
 }
 
-.estados-brasileiros {
-  list-style: inside;
+.estados-brasileiros li img {
+  padding: 0.3rem 0px;
+  border-radius: 0.4rem;
 }
-
 .link {
   text-decoration: none;
 }
