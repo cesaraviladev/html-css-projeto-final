@@ -10,6 +10,10 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+p {
+  padding: 0 0.5rem;
+}
+
 .whatsapp-button {
   position: fixed;
   bottom: 20px;
@@ -32,36 +36,6 @@ body {
   transform: scale(1.1);
   background-color: #1ebe57;
 }
-
-/* .back-to-top {
-  position: fixed;
-  bottom: 50px;
-  left: 50%;
-  transform: translateX(-50%);
-  background-color: rgba(0, 0, 0, 0.5);
-  color: white;
-  font-size: 24px;
-  width: 50px;
-  height: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-  text-decoration: none;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-  transition: opacity 0.3s ease-in-out, transform 0.3s;
-  opacity: 0;
-  visibility: hidden;
-}
-
-.back-to-top:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-
-.back-to-top.show {
-  opacity: 1;
-  visibility: visible;
-} */
 
 #capa img, #psicoterapia img {
   width: 80%;

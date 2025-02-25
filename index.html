@@ -17,10 +17,15 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
     />
+
     <!-- AOS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
     <!-- CSS -->
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./CSS/style.css" />
+
+    <!-- JavaScript -->
+    <script defer src="./JS/main.js"></script>
 
     <title>Psicóloga Regiane</title>
   </head>
@@ -89,7 +94,7 @@
             />
           </div>
           <div
-            class="col-lg-6 text-center text-lg-start text-body-secondary p-5 d-flex flex-column align-items-center align-items-lg-start"
+            class="col-lg-6 text-start text-body-secondary p-5 d-flex flex-column align-items-center align-items-lg-start"
             data-aos="zoom-in-left"
             data-aos-duration="800"
           >
@@ -179,48 +184,115 @@
       </div>
     </section>
 
-    <section id="atendimento-online" class="fundo-claro">
+    <section id="atendimento-online" class="fundo-claro" data-aos="fade-up" data-aos-duration="800">
       <div class="container text-body-secondary py-5 fundo">
         <div class="row">
-          <div class="col">
-            <h2 class="display-4 text-body-secondary text-center">Terapia sem Fronteiras </h2> 
-            <h3 class="display-6 text-body-secondary text-center pb-5">Cuidando de você, onde quer que esteja!</h3>
+          <div class="col" >
+            <h2 class="display-4 text-body-secondary text-center">
+              Terapia sem Fronteiras
+            </h2>
+            <h3 class="display-6 text-body-secondary text-center pb-5">
+              Cuidando de você, onde quer que esteja!
+            </h3>
             <p>
-              A terapia online permite que você tenha acesso a um acompanhamento psicológico de qualidade, independentemente de onde esteja. Atendo brasileiros que vivem no exterior e buscam apoio para lidar com desafios emocionais, adaptação cultural, relacionamentos e bem-estar mental. Seja qual for o país onde você mora, podemos construir juntas um caminho para uma vida mais leve e equilibrada.
+              A terapia online permite que você tenha acesso a um acompanhamento
+              psicológico de qualidade, independentemente de onde esteja. Atendo
+              brasileiros que vivem no exterior e buscam apoio para lidar com
+              desafios emocionais, adaptação cultural, relacionamentos e
+              bem-estar mental. Seja qual for o país onde você mora, podemos
+              construir juntas um caminho para uma vida mais leve e equilibrada.
             </p>
           </div>
         </div>
-        <div class="row pt-5">
+        <div class="row pt-5 px-2">
           <div class="col-md-6">
             <h3>Atendimentos no Brasil</h3>
             <ul class="estados-brasileiros">
-              <li><img src="./Images/estados/Bandeira_do_Amapá.svg" alt="" /> Amapá</li>
-              <li><img src="./Images/estados/Bandeira_da_Bahia.svg" alt="" /> Bahia</li>
-              <li><img src="./Images/estados/Bandeira_do_Ceará.svg" alt="" /> Ceará</li>
-              <li><img src="./Images/estados/Bandeira de Goias.svg" alt="" /> Goiás</li>
-              <li><img src="./Images/estados/Bandeira_de_Mato_Grosso.svg" alt="" /> Mato Grosso</li>
-              <li><img src="./Images/estados/Bandeira_de_Minas_Gerais.svg" alt="" /> Minas Gerais</li>
-              <li><img src="./Images/estados/Bandeira_da_Paraíba.svg" alt="" /> Paraíba</li>
-              <li><img src="./Images/estados/Bandeira_de_Pernambuco.svg" alt="" /> Pernambuco</li>
-              <li><img src="./Images/estados/Bandeira_do_estado_do_Rio_de_Janeiro.svg" alt="" /> Rio de Janeiro</li>
-              <li><img src="./Images/estados/Bandeira_do_Rio_Grande_do_Norte.svg" alt="" /> Rio Grande do Norte</li>
-              <li><img src="./Images/estados/Bandeira_do_estado_de_São_Paulo.svg" alt="" /> São Paulo</li>
+              <li>
+                <img src="./Images/estados/Bandeira_do_Amapá.svg" alt="" />
+                Amapá
+              </li>
+              <li>
+                <img src="./Images/estados/Bandeira_da_Bahia.svg" alt="" />
+                Bahia
+              </li>
+              <li>
+                <img src="./Images/estados/Bandeira_do_Ceará.svg" alt="" />
+                Ceará
+              </li>
+              <li>
+                <img src="./Images/estados/Bandeira de Goias.svg" alt="" />
+                Goiás
+              </li>
+              <li>
+                <img
+                  src="./Images/estados/Bandeira_de_Mato_Grosso.svg"
+                  alt=""
+                />
+                Mato Grosso
+              </li>
+              <li>
+                <img
+                  src="./Images/estados/Bandeira_de_Minas_Gerais.svg"
+                  alt=""
+                />
+                Minas Gerais
+              </li>
+              <li>
+                <img src="./Images/estados/Bandeira_da_Paraíba.svg" alt="" />
+                Paraíba
+              </li>
+              <li>
+                <img src="./Images/estados/Bandeira_de_Pernambuco.svg" alt="" />
+                Pernambuco
+              </li>
+              <li>
+                <img
+                  src="./Images/estados/Bandeira_do_estado_do_Rio_de_Janeiro.svg"
+                  alt=""
+                />
+                Rio de Janeiro
+              </li>
+              <li>
+                <img
+                  src="./Images/estados/Bandeira_do_Rio_Grande_do_Norte.svg"
+                  alt=""
+                />
+                Rio Grande do Norte
+              </li>
+              <li>
+                <img
+                  src="./Images/estados/Bandeira_do_estado_de_São_Paulo.svg"
+                  alt=""
+                />
+                São Paulo
+              </li>
             </ul>
           </div>
           <div class="col-md-6">
             <h3>Atendimentos no Mundo</h3>
             <ul>
-              <li><img src="./Images/paises/alemanha.svg" alt="" /> Alemanha</li>
-              <li><img src="./Images/paises/australia.svg" alt="" /> Austrália</li>
+              <li>
+                <img src="./Images/paises/alemanha.svg" alt="" /> Alemanha
+              </li>
+              <li>
+                <img src="./Images/paises/australia.svg" alt="" /> Austrália
+              </li>
               <li><img src="./Images/paises/belgica.svg" alt="" /> Bélgica</li>
               <li><img src="./Images/paises/canada.svg" alt="" /> Canadá</li>
               <li><img src="./Images/paises/espanha.svg" alt="" /> Espanha</li>
-              <li><img src="./Images/paises/eua.svg" alt="" /> Estados Unidos</li>
+              <li>
+                <img src="./Images/paises/eua.svg" alt="" /> Estados Unidos
+              </li>
               <li><img src="./Images/paises/holanda.svg" alt="" /> Holanda</li>
               <li><img src="./Images/paises/irlanda.svg" alt="" /> Irlanda</li>
               <li><img src="./Images/paises/italia.svg" alt="" /> Itália</li>
-              <li><img src="./Images/paises/portugal.svg" alt="" /> Portugal</li>
-              <li><img src="./Images/paises/reino-unido.svg" alt="" /> Reino Unido</li>
+              <li>
+                <img src="./Images/paises/portugal.svg" alt="" /> Portugal
+              </li>
+              <li>
+                <img src="./Images/paises/reino-unido.svg" alt="" /> Reino Unido
+              </li>
             </ul>
           </div>
         </div>
@@ -230,7 +302,7 @@
     <section id="psicoterapia">
       <div class="container">
         <div class="row d-flex text-body-secondary">
-          <div class="col-12 text-center my-5" data-aos="fade-down">
+          <div class="col-12 text-center my-5" data-aos="fade-right" data-aos-duration="800">
             <h2 class="display-4">Psicoterapia Online</h2>
             <p class="fs-5 d-flex align-items-start">
               Possui todos os benefícios e resultados da modalidade presencial e
@@ -291,7 +363,7 @@
     <section id="duvidas" class="fundo-claro">
       <div class="container text-body-secondary">
         <div class="row">
-          <div class="col my-5" data-aos="flip-down">
+          <div class="col my-5" data-aos="fade-up" data-aos-duration="800">
             <h2 class="display-4 text-center mb-5">Dúvidas Frequentes</h2>
             <div class="accordion accordion-flush" id="accordionFlushExample">
               <div class="accordion-item">
@@ -382,7 +454,7 @@
     <section id="contato" class="my-5">
       <div
         class="container text-body-secondary"
-        data-aos="zoom-in"
+        data-aos="fade-down"
         data-aos-duration="800"
       >
         <div class="row">
@@ -453,6 +525,7 @@
         </div>
       </div>
     </footer>
+
     <!-- ÍCONE DO WHATSAPP -->
     <a
       href="https://api.whatsapp.com/send?phone=5537991272061&text=Ol%C3%A1%20gostaria%20de%20agendar%20uma%20consulta"
@@ -462,37 +535,18 @@
     >
       <i class="bi bi-whatsapp"></i>
     </a>
-    <!-- ÍCONE VOLTAR -->
-    <!-- <a href="#" class="back-to-top" id="backToTop">
-      <i class="bi bi-arrow-up"></i>
-    </a> -->
 
+    <!-- JavaScript -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <script>
       AOS.init();
     </script>
-    <!-- <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        const backToTopButton = document.getElementById("backToTop");
-
-        window.addEventListener("scroll", function () {
-          if (window.scrollY > 300) {
-            backToTopButton.classList.add("show");
-          } else {
-            backToTopButton.classList.remove("show");
-          }
-        });
-
-        backToTopButton.addEventListener("click", function (event) {
-          event.preventDefault();
-          window.scrollTo({ top: 0, behavior: "smooth" });
-        });
-      });
-    </script> -->
   </body>
 </html>
