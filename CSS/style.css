@@ -82,3 +82,7 @@ p {
 .fundo-escuro {
   background-color: #3b4989;
 }
+
+#contato, #duvidas-frequentes {
+  overflow-x: hidden;
+}
