@@ -37,7 +37,7 @@ p {
   background-color: #1ebe57;
 }
 
-#capa img, #psicoterapia img {
+#capa img, #atendimento-online img {
   width: 80%;
 }
 
@@ -50,12 +50,12 @@ p {
   background-color: #e3e6f4;
 }
 
-#atendimento-online i {
+#psicoterapia-online i {
   color: #4c62a4;
   font-size: 4rem;
 }
 
-#atendimento-online li img{
+#psicoterapia-online li img{
   width: 2rem;
 }
 
@@ -67,11 +67,11 @@ p {
   text-decoration: none;
 }
 
-#psicoterapia p span {
+#atedimento-online p span {
   font-weight: 600;
 }
 
-#psicoterapia i {
+#atendimento-online i {
   color: #89ce89;
 }
 
