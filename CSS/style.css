@@ -37,6 +37,15 @@ p {
   background-color: #1ebe57;
 }
 
+#aviso {
+  background-color: #d3d1f5;
+  color: #333;
+}
+
+#aviso strong {
+  font-weight: 600;
+}
+
 #capa img, #atendimento-online img {
   width: 80%;
 }
